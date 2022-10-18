@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit dolorum voluptatum dicta itaque praesentium placeat facilis exercitationem, ut aliquid similique incidunt, corrupti aliquam officiis enim, totam natus? Adipisci, totam?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptates ex, saepe, officia corporis explicabo ipsa blanditiis quibusdam enim repudiandae error aspernatur ut itaque maxime, veniam eius maiores sunt! Numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eum quas iusto nemo alias veniam! Id, quo! Enim culpa quisquam aut ipsum repudiandae mollitia natus sequi alias optio maiores. Natus?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae reiciendis inventore officiis non sunt dignissimos corporis in esse unde. Voluptatum accusamus porro in dicta consequuntur sequi qui corporis repellat.</p><img src='imagens/html-200.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, rem necessitatibus? Earum saepe, similique omnis soluta dolores accusantium, vero et, molestiae delectus mollitia quos pariatur minus doloribus quod beatae nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eveniet similique cum quia dignissimos aut facilis impedit eaque corrupti, voluptatum, quisquam omnis dicta neque eius assumenda. Impedit nemo id voluptatum.</p>
+</body>
+</html>
